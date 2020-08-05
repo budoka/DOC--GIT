@@ -10,3 +10,7 @@ https://help.github.com/es/articles/adding-a-new-ssh-key-to-your-github-account
 # Comandos:
 
 https://rogerdudler.github.io/git-guide/index.es.html
+
+# Limpiar commit local
+
+git reset --hard origin/<branch>
