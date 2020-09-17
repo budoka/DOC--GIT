@@ -11,6 +11,15 @@ https://help.github.com/es/articles/adding-a-new-ssh-key-to-your-github-account
 
 https://rogerdudler.github.io/git-guide/index.es.html
 
+# Ver remote url
+
+git config --get remote.origin.url
+git remote show origin
+
+# Cambiar remote url
+
+git remote set-url origin <url>
+
 # Limpiar commit local
 
 git reset --hard origin/<branch>
