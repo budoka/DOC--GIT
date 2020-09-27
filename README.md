@@ -19,7 +19,7 @@ git remote show origin
 
 # Cambiar remote url
 
-git remote set-url origin <url>
+git remote set-url origin < url >
 
 # Listar stage
 
