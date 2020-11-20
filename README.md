@@ -53,3 +53,7 @@ git checkout <branch>
   
 git checkout -b <branch>
 
+# Tag
+
+git tag -a v1.0 -m ‘message’ 
+
