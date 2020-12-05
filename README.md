@@ -169,10 +169,10 @@ git tag -a v1.0 -m < message >
 ```
 
 #### Limpiar historial de commits:
-1) git checkout -b < temp-branch >
-2) git rebase -i HEAD~N (pick ultimos N commits)
-3) *Cuando se abra la interfaz, el primer commit en pick y los demás en splash/fixup. Cerrar archivo. Si no se resuelve automáticamente corregir con git rebase --edit-todo, corregir y luego git rebase --continue*
+1) `git checkout -b < temp-branch >`
+2) `git rebase -i HEAD~N` (pick ultimos N commits)
+3) *Cuando se abra la interfaz, el primer commit en pick y los demás en splash/fixup. Cerrar archivo. Si no se resuelve automáticamente corregir con `git rebase --edit-todo`, corregir y luego `git rebase --continue`*
 4) Cambiar el branch default remoto en GitHub por otro que no sea master
-5) git push origin --delete master
-6) git branch -m < old-name > < new-name > (debería ser git branch -m < temp-branch > master)
-7) git push origin master
+5) `git push origin --delete master`
+6) `git branch -m < old-name > < new-name >` (debería ser `git branch -m < temp-branch > master`)
+7) `git push origin master`
