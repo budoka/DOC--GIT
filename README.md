@@ -146,6 +146,11 @@ git checkout -b < branch >
 git branch
 ```
 
+#### Listar todos los branchs (local y remoto)
+```
+git branch -a
+```
+
 #### Renombrar branch
 ```
 git branch -m < old-name > < new-name >
