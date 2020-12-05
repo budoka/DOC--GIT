@@ -49,6 +49,11 @@ git remote show origin
 git remote set-url origin < url >
 ```
 
+#### Permite agregar nuevos archivos al commit y modificar el mensaje
+```
+git commit --amend
+```
+
 ## Working Dir / Stage
 
 #### Ver info
