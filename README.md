@@ -178,6 +178,11 @@ git diff < source-branch > < target-branch >
 git tag -a v1.0 -m < message > 
 ```
 
+#### Push tag to remote
+```
+git push origin < tag > 
+```
+
 #### Limpiar historial de commits:
 1) `git checkout -b < temp-branch >`
 2) `git rebase -i HEAD~N` (pick ultimos N commits)
