@@ -188,6 +188,13 @@ git push origin < tag >
 git tag -d < tag > 
 ```
 
+
+#### Delete Tag
+```
+git push --delete origin < tag >
+```
+
+
 #### Limpiar historial de commits:
 1) `git checkout -b < temp-branch >`
 2) `git rebase -i HEAD~N` (pick ultimos N commits)
