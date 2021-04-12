@@ -171,6 +171,11 @@ git merge < branch >
 git diff < source-branch > < target-branch >
 ```
 
+#### Copiar archivos de otro branch 
+```
+git checkout < branch > < files >
+```
+
 ## Tag
 
 #### Tag
