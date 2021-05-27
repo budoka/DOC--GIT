@@ -107,6 +107,12 @@ git reset --soft HEAD~1
 git reset --hard origin/< branch >
 ```
 
+#### Revertir commit (vuelve a un commit anterior y luego borra los archivos creados posteriormente al commit) 
+```
+git reset --hard < commit hash >
+git clean -f
+```
+
 #### Revertir commit (crea un nuevo commit revirtiendo/cancelando un commit - hacerlo con un commit viejo puede traer problemas-) 
 ```
 git revert < commit hash >
